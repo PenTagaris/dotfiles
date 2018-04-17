@@ -345,8 +345,8 @@
       </action>
     </keybind>
     <keybind key="W-Up">
-        <action name="ToggleMaximize" />
-    <!--
+      <action name="ToggleMaximize"/>
+      <!--
       <action name="UnmaximizeFull"/>
       <action name="MoveResizeTo">
         <x>0</x>
@@ -357,8 +357,8 @@
     -->
     </keybind>
     <keybind key="W-Down">
-        <action name="Iconify" /> 
-         <!-- <action name="UnmaximizeFull"/>
+      <action name="Iconify"/>
+      <!-- <action name="UnmaximizeFull"/>
           <action name="MoveResizeTo">
             <x>0</x>
             <y>-0</y>
