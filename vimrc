@@ -16,3 +16,6 @@ set softtabstop=4
 
 " But give preference to the indent plugins
 filetype indent plugin on
+
+" set md files as markdown
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
