@@ -1,5 +1,5 @@
 #Set tapping on touchpad on:
-#xinput set-prop 11 278 1 &
+xinput set-prop 13 278 1 &
 
 #Set desktop wallpaper:
 feh --bg-scale /home/justin/Pictures/backgrounds/dana_roscoe_horse.jpg &
