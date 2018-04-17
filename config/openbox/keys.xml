@@ -1,0 +1,104 @@
+<!--
+  Add this to your openbox rc.xml
+  inside <keyboard></keyboard>
+
+  +-------+-------+   +---------------+
+  | ALT+q | ALT+e |   |     ALT+w     |
+  +-------+-------+   +---------------+
+  | ALT+z | ALT+c |   |     ALT+x     |
+  +-------+-------+   +---------------+
+
+  +-------+-------+   +---------------+
+  |       |       |   |               |
+  | ALT+a | ALT+d |   |     ALT+s     |
+  |       |       |   |               |
+  +-------+-------+   +---------------+
+                         SHIFT+ALT+s
+                         to minimize
+
+  I've configures these bindings to my
+  personal preference, changing them is
+  not very hard. Just change
+  <keybind key="m-y-k-e-y-s">
+  to
+  <keybind key="y-o-u-r-k-e-y-s">
+-->
+
+<keybind key="A-a">
+  <action name="UnmaximizeFull"/>
+  <action name="MoveResizeTo">
+    <width>50%</width>
+    <height>100%</height>
+    <x>0%</x>
+    <y>0%</y>
+  </action>
+</keybind>
+<keybind key="A-d">
+  <action name="UnmaximizeFull"/>
+  <action name="MoveResizeTo">
+    <width>50%</width>
+    <height>100%</height>
+    <x>50%</x>
+    <y>0%</y>
+  </action>
+</keybind>
+<keybind key="A-x">
+  <action name="UnmaximizeFull"/>
+  <action name="MoveResizeTo">
+    <width>100%</width>
+    <height>50%</height>
+    <x>0%</x>
+    <y>50%</y>
+  </action>
+</keybind>
+<keybind key="A-w">
+  <action name="UnmaximizeFull"/>
+  <action name="MoveResizeTo">
+    <width>100%</width>
+    <height>50%</height>
+    <x>0%</x>
+    <y>0%</y>
+  </action>
+</keybind>
+<keybind key="A-q">
+  <action name="UnmaximizeFull"/>
+  <action name="MoveResizeTo">
+    <width>50%</width>
+    <height>50%</height>
+    <x>0%</x>
+    <y>0%</y>
+  </action>
+</keybind>
+<keybind key="A-e">
+  <action name="UnmaximizeFull"/>
+  <action name="MoveResizeTo">
+    <width>50%</width>
+    <height>50%</height>
+    <x>50%</x>
+    <y>0%</y>
+  </action>
+</keybind>
+<keybind key="A-z">
+  <action name="UnmaximizeFull"/>
+  <action name="MoveResizeTo">
+    <width>50%</width>
+    <height>50%</height>
+    <x>0%</x>
+    <y>50%</y>
+  </action>
+</keybind>
+<keybind key="A-c">
+  <action name="UnmaximizeFull"/>
+  <action name="MoveResizeTo">
+    <width>50%</width>
+    <height>50%</height>
+    <x>50%</x>
+    <y>50%</y>
+  </action>
+</keybind>
+<keybind key="A-s">
+  <action name="Maximize"/>
+</keybind>
+<keybind key="A-S-s">
+  <action name="Iconify"/>
+</keybind>
