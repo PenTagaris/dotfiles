@@ -346,27 +346,29 @@
     </keybind>
     <keybind key="W-Up">
       <action name="ToggleMaximize"/>
-      <!--
-      <action name="UnmaximizeFull"/>
-      <action name="MoveResizeTo">
-        <x>0</x>
-        <y>0</y>
-        <width>100%</width>
-        <height>100%</height>
-      </action>
-    -->
     </keybind>
     <keybind key="W-Down">
       <action name="Iconify"/>
-      <!-- <action name="UnmaximizeFull"/>
-          <action name="MoveResizeTo">
-            <x>0</x>
-            <y>-0</y>
-            <width>100%</width>
-            <height>50%</height>
-          </action>
-        -->
     </keybind>
+    <keybind key="W-Prior">                        
+      <action name="UnmaximizeFull"/>           
+      <action name="MoveResizeTo">              
+	<x>0</x>      
+	<y>0</y>      
+	<width>100%</width>                     
+	<height>50%</height>                    
+      </action>       
+    </keybind>        
+    <keybind key="W-Next">                      
+      <action name="UnmaximizeFull"/>           
+      <action name="MoveResizeTo">              
+	<x>0</x>      
+	<y>-0</y>     
+	<width>100%</width>                     
+	<height>50%</height>                    
+      </action>       
+    </keybind>        
+
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
