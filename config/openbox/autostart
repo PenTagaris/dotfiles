@@ -1,24 +1,17 @@
-#Set tapping on touchpad on:
-xinput set-prop 13 278 1 &
+#need some background
+feh --bg-fill Pictures/backgrounds/dana_roscoe_horse.jpg &
 
-#Set desktop wallpaper:
-feh --bg-scale /home/justin/Pictures/backgrounds/dana_roscoe_horse.jpg &
-
-#Show system tray:
+#need a bar
 tint2 &
 
-#Show system information:
-conky &
+#need a volumeicon
+volumeicon &
 
-#Autostart services:
-#Networkmanager
+#need a network icon
 nm-applet &
 
-#Dropbox
-dropbox start &
+#need to be able to control the backlight
+xbacklight &
 
-#KeePassXC
-keepassxc &
-
-#Volumen control in systemtray
-volumeicon &
+#need a screensaver
+xscreensaver &
