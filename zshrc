@@ -108,3 +108,4 @@ source $ZSH/oh-my-zsh.sh
 export GOPATH=~/Code/go
 export GOBIN=~/Code/go/bin
 export PATH=~/.local/bin:$GOBIN:$PATH
+
