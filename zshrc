@@ -2,8 +2,8 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 #Autostart TMUX
-ZSH_TMUX_AUTOSTART=true
-ZSH_TMUX_AUTOSTART_ONCE=true
+#ZSH_TMUX_AUTOSTART=true
+#ZSH_TMUX_AUTOSTART_ONCE=true
 
 # Path to your oh-my-zsh installation.
 export ZSH=/home/justin/.oh-my-zsh
@@ -69,7 +69,7 @@ ZSH_THEME="ys"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  tmux
+  #tmux
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -103,5 +103,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
+
+#Go Exports
 export GOPATH=~/Code/go
-export PATH=~/.local/bin:$GOPATH/bin:$PATH
+export GOBIN=~/Code/go/bin
+export PATH=~/.local/bin:$GOBIN:$PATH
