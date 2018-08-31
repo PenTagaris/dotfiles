@@ -1,17 +1,40 @@
+[KDE Keyboard Layout Switcher][Global Shortcuts]
+Disable Touchpad=Touchpad Off
+Enable Touchpad=Touchpad On
+Show System Activity=Ctrl+Esc
+Switch to Next Keyboard Layout=none
+Toggle Touchpad=Touchpad Toggle
+display=Display; Meta+P
+{7d7d66a6-1983-4a86-9d79-417ddd82e70f}=none
+{8b029dd9-cf56-4117-abaf-e21565c8c833}=Meta+Return
+{af4906f9-28ab-4ff2-bdcc-ebc050e50596}=none
+{b010d997-65bd-4730-8ac2-80968ddfeede}=none
+{d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
+{e56262fd-8b64-4fab-8457-3c58d5e69d8e}=none
+
 [kaccess][Global Shortcuts]
 Toggle Screen Reader On and Off=Meta+Alt+S
 
-[kcm_touchpad][Global Shortcuts]
-Disable Touchpad=Touchpad Off
-Enable Touchpad=Touchpad On
-Toggle Touchpad=Touchpad Toggle
+[kmix][Global Shortcuts]
+decrease_microphone_volume=Microphone Volume Down
+decrease_volume=Volume Down
+increase_microphone_volume=Microphone Volume Up
+increase_volume=Volume Up
+mic_mute=Microphone Mute
+mute=Volume Mute
 
-[kded5][Global Shortcuts]
-Show System Activity=Ctrl+Esc
-Switch to Next Keyboard Layout=none
-display=Display; Meta+P
+[krunner][Global Shortcuts]
+run command=Meta+Space; ; Search
+run command on clipboard contents=Meta+Shift+Space
 
-[khotkeys][Global Shortcuts]
+[ksmserver][Global Shortcuts]
+Halt Without Confirmation=none
+Lock Session=Ctrl+Alt+L; Screensaver
+Log Out=none
+Log Out Without Confirmation=none
+Reboot Without Confirmation=none
+
+[kwin][Global Shortcuts]
 Activate Window Demanding Attention=Ctrl+Alt+A
 Decrease Opacity=none
 Expose=Ctrl+F9
@@ -31,10 +54,10 @@ Setup Window Shortcut=none
 Show Desktop=none
 ShowDesktopGrid=Ctrl+F8
 Suspend Compositing=Alt+Shift+F12
-Switch One Desktop Down=none
-Switch One Desktop Up=none
-Switch One Desktop to the Left=none
-Switch One Desktop to the Right=none
+Switch One Desktop Down=Ctrl+Alt+Down
+Switch One Desktop Up=Ctrl+Alt+Up
+Switch One Desktop to the Left=Ctrl+Alt+Left
+Switch One Desktop to the Right=Ctrl+Alt+Right
 Switch Window Down=Meta+Alt+Down
 Switch Window Left=Meta+Alt+Left
 Switch Window Right=Meta+Alt+Right
@@ -100,10 +123,10 @@ Window Minimize=none
 Window Move=none
 Window No Border=none
 Window On All Desktops=none
-Window One Desktop Down=none
-Window One Desktop Up=none
-Window One Desktop to the Left=none
-Window One Desktop to the Right=none
+Window One Desktop Down=Ctrl+Alt+Shift+Down
+Window One Desktop Up=Ctrl+Alt+Shift+Up
+Window One Desktop to the Left=Ctrl+Alt+Shift+Left
+Window One Desktop to the Right=Ctrl+Alt+Shift+Right
 Window Operations Menu=Alt+F3
 Window Pack Down=none
 Window Pack Left=none
@@ -157,30 +180,14 @@ Window to Screen 7=none
 view_actual_size=none
 view_zoom_in=Meta+=
 view_zoom_out=Meta+-
-{7d7d66a6-1983-4a86-9d79-417ddd82e70f}=none
-{af4906f9-28ab-4ff2-bdcc-ebc050e50596}=none
-{b010d997-65bd-4730-8ac2-80968ddfeede}=none
-{d03619b6-9b3c-48cc-9d9c-a2aadb485550}=none
-{e56262fd-8b64-4fab-8457-3c58d5e69d8e}=none
 
-[kmix][Global Shortcuts]
-decrease_microphone_volume=Microphone Volume Down
-decrease_volume=Volume Down
-increase_microphone_volume=Microphone Volume Up
-increase_volume=Volume Up
-mic_mute=Microphone Mute
-mute=Volume Mute
-
-[krunner][Global Shortcuts]
-run command=Meta+Space; ; Search
-run command on clipboard contents=Meta+Shift+Space
-
-[ksmserver][Global Shortcuts]
-Halt Without Confirmation=none
-Lock Session=Ctrl+Alt+L; Screensaver
-Log Out=none
-Log Out Without Confirmation=none
-Reboot Without Confirmation=none
+[mediacontrol][Global Shortcuts]
+mediavolumedown=none
+mediavolumeup=none
+nextmedia=Media Next
+playpausemedia=Media Play
+previousmedia=Media Previous
+stopmedia=Media Stop
 
 [org_kde_powerdevil][Global Shortcuts]
 Decrease Keyboard Brightness=Keyboard Brightness Down
@@ -216,3 +223,13 @@ show dashboard=Ctrl+F12
 show-barcode=none
 show-on-mouse-pos=none
 stop current activity=none
+
+[plasmawindowed][Global Shortcuts]
+clear-history=none
+clipboard_action=none
+cycleNextAction=none
+cyclePrevAction=none
+edit_clipboard=none
+repeat_action=none
+show-barcode=none
+show-on-mouse-pos=none
