@@ -1,9 +1,10 @@
-# If you come from bash you might have to change your $PATH.
+#If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 #Autostart TMUX
-#ZSH_TMUX_AUTOSTART=true
-#ZSH_TMUX_AUTOSTART_ONCE=true
+ZSH_TMUX_AUTOSTART=true
+ZSH_TMUX_AUTOSTART_ONCE=true
+ZSH_TMUX_AUTOCONNECT=false
 
 # Path to your oh-my-zsh installation.
 export ZSH=/home/justin/.oh-my-zsh
@@ -112,3 +113,5 @@ export GOPATH=~/Code/go
 export GOBIN=~/Code/go/bin
 export PATH=~/.local/bin:$GOBIN:$PATH
 
+#Create a scratch directory
+[[ -d /tmp/$USER/Scratch ]] || mkdir -p /tmp/$USER/Scratch && ln -sf /tmp/$USER/Scratch /home/$USER/
