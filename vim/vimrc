@@ -1,9 +1,8 @@
-" Open NERDTree in new tabs and windows if no command line args set
-autocmd VimEnter * if !argc() | NERDTree | endif 
-autocmd BufEnter * if !argc() | NERDTreeMirror | endif
+"Be iMproved
+set nocompatible
 
-" Open NERDTree all willy-nilly
-"autocmd VimEnter * NERDTree
+"Have Pathogen
+execute pathogen#infect()
 
 " Turn on syntax highlighting please.
 syntax on
@@ -17,12 +16,15 @@ set softtabstop=4
 " But give preference to the indent plugins
 filetype indent plugin on
 
-" set md files as markdown
-"autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+" paste disables expandttab
+"set paste
 
-" fix yaml stuff
-autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+" Pathogen defaults
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
 
-" set paste mode by default
-set paste
-
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
