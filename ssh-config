@@ -1,4 +1,4 @@
-Host github.com
+Host git@github.com
     IdentityFile ~/.ssh/github.asc
 Host *.christiannet
     IdentityFile ~/.ssh/christiannet.asc
