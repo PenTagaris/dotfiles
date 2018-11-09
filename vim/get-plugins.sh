@@ -5,11 +5,10 @@
 mkdir -p ./bundle
 cd bundle
 
-declare -a plugins = ( 
-    "git@github.com:ConradIrwin/vim-bracketed-paste.git"
-    "git@github.com:vim-pandoc/vim-pandoc.git"
-    "git@github.com:vim-pandoc/vim-pandoc.git"
-    "git@github.com:vim-pandoc/vim-pandoc-syntax.git"
+plugins=(   "git@github.com:ConradIrwin/vim-bracketed-paste.git" 
+            "git@github.com:vim-syntastic/syntastic.git"
+            "git@github.com:vim-pandoc/vim-pandoc.git" 
+            "git@github.com:vim-pandoc/vim-pandoc-syntax.git" 
 )
 
 for i in "${plugins[@]}"
