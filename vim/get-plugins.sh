@@ -4,7 +4,15 @@
 
 mkdir -p ./bundle
 cd bundle
-git clone git@github.com:vim-syntastic/syntastic.git
-git clone git@github.com:ConradIrwin/vim-bracketed-paste.git
-git clone git@github.com:vim-pandoc/vim-pandoc.git
-git clone git@github.com:vim-pandoc/vim-pandoc-syntax.git
+
+declare -a plugins = ( 
+    "git@github.com:ConradIrwin/vim-bracketed-paste.git"
+    "git@github.com:vim-pandoc/vim-pandoc.git"
+    "git@github.com:vim-pandoc/vim-pandoc.git"
+    "git@github.com:vim-pandoc/vim-pandoc-syntax.git"
+)
+
+for i in "${plugins[@]}"
+do
+    git clone $i
+done
