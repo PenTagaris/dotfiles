@@ -115,3 +115,9 @@ export PATH=~/.local/bin:$GOBIN:$PATH
 
 #Create a scratch directory
 [[ -d /tmp/$USER/Scratch ]] || mkdir -p /tmp/$USER/Scratch && ln -sf /tmp/$USER/Scratch /home/$USER/
+
+if [ `which fortune` ]; then
+echo ""
+  fortune
+  echo ""
+fi
