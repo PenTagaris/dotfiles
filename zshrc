@@ -107,6 +107,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
+#Aliases
+alias oplogin="eval $(op signin example)"
 
 #Go Exports
 export GOPATH=~/Code/go
