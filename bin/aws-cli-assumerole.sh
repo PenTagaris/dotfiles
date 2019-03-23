@@ -12,17 +12,18 @@
 # Description:
 #   Makes assuming an AWS IAM role (+ exporting new temp keys) easier
 
-unset  AWS_SESSION_TOKEN
-export AWS_ACCESS_KEY_ID=<user_access_key>
-export AWS_SECRET_ACCESS_KEY=<user_secret_key>
-export AWS_REGION=eu-west-1
+unset AWS_SESSION_TOKEN
+unset AWS_ACCESS_KEY_ID
+unset AWS_SECRET_ACCESS_KEY
+unset AWS_REGION
 
 temp_role=$(aws sts assume-role \
-                    --role-arn "arn:aws:iam::<aws_account_number>:role/<role_name>" \
-                    --role-session-name "<some_session_name>")
+                    --role-arn "arn:aws:iam::267517950335:role/OrganizationAccountAccessRole" \
+                    --role-session-name "justin_home")
 
 export AWS_ACCESS_KEY_ID=$(echo $temp_role | jq .Credentials.AccessKeyId | xargs)
 export AWS_SECRET_ACCESS_KEY=$(echo $temp_role | jq .Credentials.SecretAccessKey | xargs)
 export AWS_SESSION_TOKEN=$(echo $temp_role | jq .Credentials.SessionToken | xargs)
+export AWS_REGION="us-east-1"
 
 env | grep -i AWS_
