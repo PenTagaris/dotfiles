@@ -3,6 +3,6 @@
 # Please adapt and uncomment the following lines:
 	name = jstnchristian
 	email = jstnchristian@gmail.com
-[credential]
-	helper = !aws codecommit credential-helper $@
-	UseHttpPath = true
+#[credential]
+#	helper = !aws codecommit credential-helper $@
+#	UseHttpPath = true
