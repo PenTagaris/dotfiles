@@ -1,3 +1,4 @@
 vim/bundle
 ssh/*.asc
 ssh/known_hosts
+bin/pcloud
